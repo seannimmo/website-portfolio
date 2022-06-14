@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  /*align-content: stretch;
+  */
+  height: 100vmin;
+  width: 100vmax;
+}
+a {
+  text-decoration: none;
 }
 
 .App-logo {

@@ -1,0 +1,13 @@
+.navbar {
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 20px; 
+    height: 5vh;
+    background: #303032;
+    color: white;
+    display: flex;
+}
+
+.navbar-item {
+    color: white; 
+}

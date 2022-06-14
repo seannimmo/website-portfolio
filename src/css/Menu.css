@@ -1,0 +1,10 @@
+.menu {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 20vw;
+    height: 95vh;
+    background: #e3e8ff;
+    color: black;
+}
+

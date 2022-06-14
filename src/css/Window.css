@@ -1,0 +1,16 @@
+.window {
+    width: 80vw;
+    box-sizing: border-box;
+    background: #dcdbe1;
+    height: 95vh;
+}
+
+.content {
+    /* box-sizing: border-box; */
+    background: white; 
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    margin-top: 2%;
+
+}

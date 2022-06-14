@@ -1,0 +1,40 @@
+.game-board {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.palette {
+    display: flex;
+    flex-direction: column;
+    background: lightslategrey;
+    height: 86.6vmin;
+    width: 20vmin;
+    margin: .1vmin;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0 25px 25px 0;
+}
+
+.palette-color {
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 50%;
+}
+
+.board {
+    height: 86.8vmin;
+    width: 86.8vmin;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.square {
+    height: 6vmin;
+    width: 6vmin;
+    margin: .1vmin;
+}
