@@ -2,13 +2,15 @@ import React from 'react';
 import '../css/Menu.css';
 import Tutorial from "./Tutorial.js";
 import Drench from "./Drench.js";
+import Wordle from "./Wordle.js";
 
 const Menu = (props) => {
 
         return(
             <div className='menu'>
-            <Item item={"Tutorial"} handleContent={props.handleContent} game={<Tutorial />} />
-            <Item item={"Drench"} handleContent={props.handleContent} game={<Drench />}/>
+                <Item item={"Tutorial"} handleContent={props.handleContent} game={<Tutorial />} />
+                <Item item={"Drench"} handleContent={props.handleContent} game={<Drench />} />
+                <Item item={"Wordle"} handleContent={props.handleContent} game={<Wordle />} />
             </div>
         )
 }

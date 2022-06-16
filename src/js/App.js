@@ -5,6 +5,7 @@ import Navbar from './navbar.js';
 import Window from './Window.js';
 import React, {useState} from 'react';
 import Drench from './Drench.js';
+import Wordle from './Wordle.js';
 import Tutorial from './Tutorial.js';
 
 const App = () => {
@@ -13,7 +14,6 @@ const App = () => {
 
   const handleContent = game => {
     setContent(game);
-    console.log(content);
   }
 
   return (

@@ -1,0 +1,19 @@
+.wordle-board {
+    display: flex;
+    border: none;
+    flex-direction: column;
+}
+
+.wordle-row {
+    display: flex;
+}
+
+.wordle-square {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: black;
+    margin: .25em;
+    height: 3em;
+    width: 3em;
+
+}
